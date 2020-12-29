@@ -1,8 +1,7 @@
 # ZabbixCheckDomainExpire
 
 ## 1. Know Issue
-Can't check domain .vn
-Because TLDs not support.
+Can't check domain .vn, because TLDs not support.
 
 ## 2. Prepare
 Install `whois` package
@@ -18,6 +17,6 @@ Install `whois` package
 
 4. Copy file in `zabbix-agent.d/domain_check.conf` to `/etc/zabbix-agent.d/domain_check.conf` on server
 
-5. In Zabbix console, import tempale `zbx_export_templates.xml` and add template to zabbix just config above.
+5. In Zabbix console, import tempale `zbx_export_templates.xml` and add template to zabbix host which just config above.
 
 Happy monitoring!!!
