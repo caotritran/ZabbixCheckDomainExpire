@@ -1,4 +1,7 @@
 # ZabbixCheckDomainExpire
+## Dependencies
+perl, zabbix-agent, zabbix-sender
+Tested with zabbix 3.2
 
 ## 1. Know Issue
 Can't check domain .vn, because TLDs not support.
